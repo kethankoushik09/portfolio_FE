@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar.jsx";
 import Home from "./components/Home.jsx";
 import AboutSection from "./components/AboutSection.jsx";
 import Projects from "./components/Projects.jsx";
+import Education from "./components/Education.jsx";
 import Contact from "./components/Contact.jsx";
 import Skills from "./components/Skills.jsx";
 import Footer from "./components/Footer.jsx";
@@ -16,6 +17,7 @@ function App() {
         <AboutSection />
         <Skills/>
         <Projects/>
+        <Education/>
         <Contact/>
         <Footer/>
       </main>
