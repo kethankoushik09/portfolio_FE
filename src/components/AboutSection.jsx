@@ -1,5 +1,5 @@
 import React from "react";
-import KethanImage from "../assets/kethan.jpg";
+import KethanImage from "../assets/Kethan.jpg";
 
 const AboutSection = () => {
   return (
