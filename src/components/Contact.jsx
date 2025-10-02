@@ -23,8 +23,8 @@ const Contact = () => {
     try {
       const API_URL =
         window.location.hostname === "localhost"
-          ? "http://localhost:5000"
-          : "https://portfolio-be-kj18.onrender.com";
+          ? "http://localhost:5000/api/contact"
+          : "https://portfolio-be-kj18.onrender.com/api/contact";
       const response = await fetch(API_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
