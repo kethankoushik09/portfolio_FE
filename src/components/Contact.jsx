@@ -37,11 +37,11 @@ const Contact = () => {
         alert("✅ Thanks for reaching out! I got your message.");
         setFormData({ name: "", email: "", message: "" });
       } else {
-        alert("❌ Failed to send message. Try again later.");
+        alert(data.message);
       }
     } catch (error) {
       console.error("Error:", error);
-      alert("❌ Something went wrong. Please try again.");
+      alert(error.message);
     }
   };
 
